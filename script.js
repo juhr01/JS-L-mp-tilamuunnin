@@ -1,7 +1,12 @@
-function temperatureConverter(valNum) {
-    valNum = parseFloat(valNum);
-    
-  }
+const mylist = document.querySelector("#myList");
+const valittu = mylist.options[mylist.selectedIndex].text;
+const myForm = document.querySelector('#my-form');
+
+myForm.addEventListener('submit', onSubmit);
+
+function onSubmit(e) {
+    e.preventDefault();
+}
 
 function cTOf(celsius) {
     const cTemp = celsius;
