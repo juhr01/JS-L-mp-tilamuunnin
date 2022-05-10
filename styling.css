@@ -21,9 +21,9 @@
   
   .container {
     margin: auto;
-    max-width: 500px;
-    overflow: auto;
-    padding: 3rem 2rem;
+    max-width: 600px;
+    overflow: hidden;
+    padding: 3rem;
     margin-top:5em;
     background-color: white;
   }
@@ -38,48 +38,98 @@
   }
   
   #my-form input[type='text'] {
-    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+    margin-right: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
   }
   
   .btn {
     display: block;
-    width: 100%;
     padding: 10px 15px;
     border: 0;
     background: #333;
     color: #fff;
     border-radius: 5px;
-    margin: 5px 0;
+    margin-bottom: 10px;
+  }
+
+  #muunto {
+    background: #333;
+    color: #fff;
+  }
+
+  #muunto:hover {
+    background: #444;
+    color:black;
   }
   
   .btn:hover {
     background: #444;
+    color:black;
   }
   
-  .bg-dark {
-    background: #333;
-    color: #fff;
-  }
-  
-  .error {
-    background: orangered;
-    color: #fff;
-    padding: 5px;
-    margin: 5px;
-  }
-
   #muunnin {
     display:flex;
     flex-direction: row;
-    width: 80%;
+    width: 800%;
     margin-top: 10px;;
   }
 
   .nappi {
     display:flex;
     flex-direction: row;
+  
   }
+
+  label {
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+  #takaisin {
+    display: block;
+    width: 100px;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 2rem;
+    text-decoration: none;
+  }
+
+  #takaisin:hover {
+    background: #444;
+    color:black;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  footer {
+    position:fixed;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    margin-top:20px;
+    background-color: #1a1a1a;
+  
+  }
+
+  .footertext {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+  }
+  

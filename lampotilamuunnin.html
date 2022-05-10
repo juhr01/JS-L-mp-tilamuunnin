@@ -16,9 +16,10 @@
 
 <body>
   <section class="container">
+    <a id="takaisin" href="../projektit/projektit.html">&#8592;Takaisin</a>
     <form id="my-form">
       <h1>Lämpötilamuunnin</h1>
-      <div class="msg"></div>
+      <br>
       <select id="myList">
         <option value="cTOf" id="cTOf">Celsius -> Fahrenheit</option>
         <option value="cTOk" id="cTOk">Celsius -> Kelvin</option>
@@ -29,26 +30,26 @@
       </select>
       <div id="muunnin">
       <input type="text" id="lampotila" placeholder="Lämpötila">
-      <input class="btn" onclick="muunna()" value="Muunna">  
+      <input class="btn" id="muunto" onclick="muunna()" value="Muunna">  
     </div>
     <br>
     <div class="nappi">
-    <input type="radio" id="1d" name="desimaali" value="1 Desimaali">
-    <label for="1d">1 Desimaali</label>
+    <label for="1d"><input type="radio" id="1d" name="desimaali" value="1 Desimaali"> 1 Desimaali</label>
   </div>
   <div class="nappi">
-    <input type="radio" id="2d" name="desimaali" value="2 Desimaalia">
-    <label for="2d">2 Desimaalia</label>
+    <label for="2d"><input type="radio" id="2d" name="desimaali" value="2 Desimaalia"> 2 Desimaalia</label>
   </div>
   <div class="nappi">
-    <input type="radio" id="3d" name="desimaali" value="3 Desimaalia">
-    <label for="3d">3 Desimaalia</label>
+    <label for="3d"><input type="radio" id="3d" name="desimaali" value="3 Desimaalia"> 3 Desimaalia</label>
   </div>
-
+  <br>
   <h2><span id="output"></span></h2>
     </form>
 
   </section>
+  <footer>
+    <p class="footertext">© Juho Riipinen TiVi21A</p>
+  </footer>
   <script src="script.js"></script>
 
 
