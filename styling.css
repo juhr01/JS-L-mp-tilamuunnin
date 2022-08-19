@@ -46,19 +46,18 @@
     border: 1px solid #ccc;
   }
   
-  .btn {
+  #muunto {
     display: block;
-    padding: 10px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 0;
     background: #333;
     color: #fff;
     border-radius: 5px;
     margin-bottom: 10px;
-  }
-
-  #muunto {
-    background: #333;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   #muunto:hover {
@@ -66,11 +65,7 @@
     color:black;
   }
   
-  .btn:hover {
-    background: #444;
-    color:black;
-  }
-  
+
   #muunnin {
     display:flex;
     flex-direction: row;
